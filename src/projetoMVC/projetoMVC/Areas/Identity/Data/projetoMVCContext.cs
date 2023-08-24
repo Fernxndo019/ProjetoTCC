@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using projetoMVC.Areas.Identity.Data;
+using projetoMVC.Models;
 
 namespace projetoMVC.Data;
 
@@ -19,4 +20,6 @@ public class projetoMVCContext : IdentityDbContext<UsuarioModel>
         // For example, you can rename the ASP.NET Identity table names and more.
         // Add your customizations after calling base.OnModelCreating(builder);
     }
+
+    public DbSet<projetoMVC.Models.NoticiasModel>? NoticiasModel { get; set; }
 }
