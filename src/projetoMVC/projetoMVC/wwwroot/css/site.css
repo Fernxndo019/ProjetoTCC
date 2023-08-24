@@ -1,0 +1,57 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* Define a largura e altura do contêiner */
+
+.container1 {
+    /*    width: 300%;*/
+    height: 200px;
+    overflow: auto;
+    white-space: nowrap; /* Impede que o conteúdo quebre em várias linhas */
+}
+
+/* Define a velocidade da animação da rolagem */
+.scrolling {
+    animation: scroll 15s linear infinite;
+}
+
+/* Animação da rolagem */
+
+percent {
+    transform: translateX(-100%); /* Muda a porcentagem conforme necessário */
+}
+
+
+.fotox {
+    margin-left: 100px;
+}
+
+.destaque {
+    margin-left: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+.topo {
+    text-align: center;
+    background-color: #1d9cea;
+}
+
+.xpto {
+    color: azure;
+}
